@@ -175,14 +175,64 @@ button {
     
 
 .container {
-    padding: 80px 0px;
+    padding: 96px 0px;
 }
 
 .row__3 {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
+.feature__title {
+    letter-spacing: 1.6px;
+    font-size: 16px;
+}
+
+.section--title {
+    letter-spacing: 1.6px;
+    font-size: 48px;
+    margin: 16px 0px;
+    color: rgb(36, 62, 99);
+}
+
+
+.random--text {
+    letter-spacing: 1.6px;
+    max-width: 576px;
+    font-size: 16px;
+    color: #7c8ba1;
+}
+
+.features {
+    margin-top:  40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: calc(100% / 3);
+    display: flex;
+    padding: 32px 24px;}
+
+.feature__text
+{
+    margin-left: 16px;
+}
+.feature__img {
+    padding: 24px;
+
+}
+.feature__description {
+    margin-top: 16px;
+}
+
+.img__wrapper--feature {
+    border: 1px solid;
+    border-radius: 50%;
+}
 
 
